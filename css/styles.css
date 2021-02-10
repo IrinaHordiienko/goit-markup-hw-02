@@ -24,7 +24,7 @@ body {
 /* logo */
 
 .mainlogo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -70,31 +70,31 @@ body {
 
 /* hero */
 .hero {
-  text-transform: uppercase;
   background-color: var(--background-col);
   color: var(--primary-bg-color);
   text-align: center;
+}
+.hero-title {
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
 }
-
 .hero-link {
+  background-color: var(--accent-color);
   text-decoration: none;
   text-transform: none;
   color: var(--primary-bg-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
 /* features */
 .section-title {
   color: var(--title-text-color);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -143,11 +143,6 @@ body {
 }
 .footer .mainlogo {
   color: var(--primary-bg-color);
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 
 .adress-text {
@@ -165,6 +160,13 @@ body {
 
 /* button */
 .button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
   color: var(--title-text-color);
   text-decoration: none;
   background-color: var(--background-team);
@@ -193,6 +195,9 @@ body {
   letter-spacing: 0.03em;
 }
 
+.image {
+  width: 370px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
